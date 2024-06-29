@@ -13,7 +13,7 @@ const playwriteDEGrund = localFont({
 
 export const metadata: Metadata = {
   title: "OpenData",
-  description: "",
+  description: "Delivers consistent and reliable APIs from Community-generated and Randomize data, No Bullsh*t.",
 };
 
 export default function RootLayout({
