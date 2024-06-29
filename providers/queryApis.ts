@@ -3,7 +3,7 @@
 import { ApiType } from "@/app/api/[[...route]]/route";
 import { InferResponseType, hc } from "hono/client";
 
-const client = hc<ApiType>(process.env.DATA_URL!);
+const client = hc<ApiType>("https://opendata-ebon.vercel.app/");
 
 type ResType = InferResponseType<typeof client.api.random.usernames.$get>;
 
