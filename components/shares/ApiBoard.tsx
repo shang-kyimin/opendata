@@ -4,7 +4,7 @@ import { getRandomUsername } from "@/providers/queryApis";
 import { useQuery } from "@tanstack/react-query";
 
 export default function ApiBoard() {
-  const link = "https://opendata-os.vercel.app";
+  const link = "https://opendata-ebon.vercel.app";
 
   const query = useQuery({
     queryKey: ["initRUsername"],
